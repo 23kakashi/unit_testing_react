@@ -9,9 +9,9 @@ describe("Registation form", () => {
   let form;
   beforeAll(() => {});
 
-  //   beforeEach(() => {
-  //     form = render(<Form />);
-  //   });
+    beforeEach(() => {
+      form = render(<Form />);
+    });
 
   it("should have registation form", () => {
     //Assert
